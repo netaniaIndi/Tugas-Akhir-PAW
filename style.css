@@ -1,0 +1,204 @@
+.temp {
+  border-radius: 10px;
+  background-color: #020202; 
+  color: rgb(211, 211, 211); 
+  display: inline-block; 
+  padding: 5px 8px;
+}
+
+nav {
+  margin:auto;
+  text-align: center;
+  width: 100%;
+  font-family: arial;
+} 
+
+nav ul {
+  list-style-type: none;
+  margin top: 0;
+  padding: 0;
+  width: 100%;
+  border-left: 1px solid;
+  overflow: hidden;
+  
+}
+
+nav ul li{
+  float:left;
+}
+
+nav ul li:hover{
+  background:#d68d9a;
+}
+
+nav ul li:hover a{
+ color:#000;
+}
+
+nav ul li a{
+ /* display: block;
+ padding: 5px;
+ color: #fff;
+ text-decoration: none;
+ font-size: 20px; */
+ display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+body {
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 100vh; 
+  /* overflow-y: hidden; */
+  background-image:url(./img/gambar1.jpg);
+  
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-shadow: #020202;
+}
+
+.container2{
+padding: 20px 70px;
+color:#fff;
+font-size: 100px;
+}
+
+.current-info{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.date-container{
+font-weight: 100;
+}
+.date-container .time{
+font-size: 70px;
+}
+
+.date-container #am-pm{
+font-size: 30px;
+margin-left: 20px;
+}
+
+.date-container .date{
+font-size: 30px;
+}
+
+.place-container{
+text-align: end;
+}
+
+.place-container .time-zone{
+font-size: 30px;
+font-weight: 100;
+}
+
+.place-container .country{
+font-size: 12px;
+font-weight: 700;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+h4 {
+  color: #012443
+}
+
+h5 p{
+  margin-bottom: 17px
+}
+
+.time-zone {
+  margin-top: 14px;
+}
+
+.time {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.container.mt-2.result {
+  height: 55vh;
+}
+
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: transparent;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 8px;
+}
+
+.footer h6 {
+  font-weight: 200;
+}
+
+.footer span {
+  color: crimson;
+}
+
+.footer{
+  background: #333;
+}
+
+.footer .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+}
+
+.footer .box-container .box{
+  padding:1rem 0;
+  flex:1 1 25rem;
+}
+
+.footer .box-container .box h3{
+  font-size: 2.5rem;
+  padding:.7rem 0;
+  color:#fff;
+}
+
+.footer .box-container .box p{
+  font-size: 1.5rem;
+  padding:.7rem 0;
+  color:#eee;
+}
+
+.footer .box-container .box a{
+  display: block;
+  font-size: 1.5rem;
+  padding:.7rem 0;
+  color:#eee;
+}
+
+.footer .box-container .box a:hover{
+  color:var(--orange);
+  text-decoration: underline;
+}
+
+.footer .credit{
+  text-align: center;
+  padding:2rem 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: normal;
+  color:#fff;
+  border-top: .1rem solid rgba(255,255,255,.2);
+}
+
+.footer .credit span{
+  color:var(--orange);
+}
